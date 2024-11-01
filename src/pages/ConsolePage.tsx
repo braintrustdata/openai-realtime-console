@@ -83,8 +83,7 @@ export function ConsolePage() {
       url: LOCAL_RELAY_SERVER_URL || undefined,
       apiKey: apiKey,
       dangerouslyAllowAPIKeyInBrowser: true,
-    }
-    )
+    })
   );
 
   /**
@@ -514,7 +513,6 @@ export function ConsolePage() {
             label={`api key: ${apiKey.slice(0, 3)}...`}
             onClick={() => resetAPIKey()}
           />
-          )
         </div>
       </div>
       <div className="content-main">
