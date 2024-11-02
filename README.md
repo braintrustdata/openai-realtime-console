@@ -4,10 +4,10 @@ This repo is a fork of the [OpenAI Realtime Console]. It demonstrates how the
 [Braintrust AI Proxy] can be integrated into an existing app built on the OpenAI
 Realtime API to provide observability and secret management.
 
-In this demo, the application connects to `https://braintrustproxy.com/v1`, the
-hosted Braintrust AI Proxy, by default. The environment variable
-`REACT_APP_LOCAL_RELAY_SERVER_URL` can be used to specify a self-hosted proxy
-URL.
+In this demo, the application connects to
+`https://braintrustproxy.com/v1/realtime`, the free Braintrust AI Proxy, by
+default. The environment variable `REACT_APP_LOCAL_RELAY_SERVER_URL` can be
+used to specify a self-hosted proxy URL.
 
 One may use an OpenAI credential or a [temporary credential] issued by the
 proxy. If the temporary credential wraps a Braintrust API key, the proxy can
